@@ -1,10 +1,16 @@
 import React from 'react';
+import Navbar from '../Shared/Navbar';
+import Bannar from '../Components/Bannar';
+import Swipe from '../Components/Swipe';
+
 
 const Home = () => {
     return (
         <div>
 
-            <h2>This is home</h2>
+            <Navbar></Navbar>
+            <Bannar></Bannar>
+            <Swipe></Swipe>
             
         </div>
     );
