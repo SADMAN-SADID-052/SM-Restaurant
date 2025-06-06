@@ -1,7 +1,9 @@
-import React from 'react';
+
 import Navbar from '../Shared/Navbar';
 import Bannar from '../Components/Bannar';
 import Swipe from '../Components/Swipe';
+import PopularMenu from '../Components/popularMenu';
+
 
 
 const Home = () => {
@@ -10,7 +12,10 @@ const Home = () => {
 
             <Navbar></Navbar>
             <Bannar></Bannar>
-            <Swipe></Swipe>
+           <div className='max-w-6xl mx-auto'>
+             <Swipe></Swipe>
+            <PopularMenu></PopularMenu>
+           </div>
             
         </div>
     );
